@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-input = open('input/day3.txt', 'r').read();
+input = open('input.txt', 'r').read();
 
 def move(position, direction):
     x, y = position

@@ -4,7 +4,7 @@ from functools import reduce
 from operator import mul
 import re
 
-input = open('input/day10.txt', 'r').read();
+input = open('input.txt', 'r').read();
 
 class Output(object):
     def __init__(self):

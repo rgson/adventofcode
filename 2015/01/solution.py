@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-input = open('input/day1.txt', 'r').read();
+input = open('input.txt', 'r').read();
 
 def task1(input):
     return sum([1 if c == '(' else -1 for c in input if c in ['(', ')']])

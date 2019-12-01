@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 from collections import Counter
 
-input = open('input/day6.txt', 'r').read();
+input = open('input.txt', 'r').read();
 
 def task1(input):
     lines = [line for line in input.splitlines() if line]

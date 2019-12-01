@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-input = open('input/day3.txt', 'r').read();
+input = open('input.txt', 'r').read();
 
 def task1(input):
     numbers = [sorted([int(x) for x in line.split()]) for line in input.splitlines() if line]

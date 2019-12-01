@@ -2,7 +2,7 @@
 from itertools import count
 from hashlib import md5
 
-input = open('input/day5.txt', 'r').read();
+input = open('input.txt', 'r').read();
 
 def task1(input):
     doorid = input.strip();

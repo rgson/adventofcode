@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-input = open('input/day2.txt', 'r').read();
+input = open('input.txt', 'r').read();
 
 def task1(input):
     input = [[int(n) for n in l.split('x')] for l in input.split('\n') if l]

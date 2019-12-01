@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-input = open('input/day1.txt', 'r').read();
+input = open('input.txt', 'r').read();
 
 def task1(input):
     instructions = [(i[0], int(i[1:])) for i in input.split(', ')]

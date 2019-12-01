@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import re
 
-input = open('input/day8.txt', 'r').read();
+input = open('input.txt', 'r').read();
 
 def parse_command(line):
     match = re.match('(rect) (\d+)x(\d+)', line)

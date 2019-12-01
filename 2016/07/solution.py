@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-input = open('input/day7.txt', 'r').read();
+input = open('input.txt', 'r').read();
 
 def contains_abba(s):
     for i in range(len(s)-3):

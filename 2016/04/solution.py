@@ -3,7 +3,7 @@ import re
 from collections import Counter
 from operator import itemgetter
 
-input = open('input/day4.txt', 'r').read();
+input = open('input.txt', 'r').read();
 
 def parse_input(input):
     lines = [line for line in input.splitlines() if line]

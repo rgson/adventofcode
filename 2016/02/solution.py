@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-input = open('input/day2.txt', 'r').read();
+input = open('input.txt', 'r').read();
 
 def clamp(n, lower, upper):
     return max(lower, min(n, upper))

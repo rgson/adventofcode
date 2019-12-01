@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import re
 
-input = open('input/day9.txt', 'r').read();
+input = open('input.txt', 'r').read();
 
 def parse_input(input):
     lines = [line for line in input.splitlines() if line]
