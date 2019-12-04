@@ -1,0 +1,14 @@
+#!/bin/zsh
+
+if [[ $# != 3 ]]; then
+	echo "Usage: $(basename $0) YEAR DAY [LANGUAGE]" >&2
+	exit 1;
+fi
+
+d=$(printf '%4d/%02d' $1 $2)
+
+mkdir -p $d
+
+if [[ -n $3 && -f template.$3 ]]; then
+	install template.$3 $d/solution.$3
+fi
